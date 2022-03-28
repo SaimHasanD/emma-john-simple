@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+}
+
+.header img {
+    height: 80px;
+    padding-bottom: 15px;
+}
+
+nav {
+    background: black;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 30px;
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0 10px;
+}
+
+nav a:hover{
+    color: aqua;
+}
