@@ -21,8 +21,8 @@ const Cart = (props) => {
     }
 
     const tax = (total/10).toFixed(2);
-    const withoutTax = Number(total) + shipping;
-    const grindTotal =  Number(total) + shipping + Number(tax) ;
+    const withoutTax = (Number(total) + shipping).toFixed(2);
+    const grindTotal =  (Number(withoutTax) + Number(tax)).toFixed(2) ;
 
     // let total = 0;
     // for (let i = 0; i < cart.length; i++) {
